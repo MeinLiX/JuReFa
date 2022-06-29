@@ -1,5 +1,4 @@
-﻿using JuReFa.Forms;
-using JuReFa.Properties;
+﻿using JuReFa.Properties;
 using System;
 using System.Collections.Generic;
 using System.Drawing;

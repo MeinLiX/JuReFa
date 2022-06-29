@@ -67,7 +67,7 @@ namespace JuReFa
         private void TrackBarFieldCount_ValueChanged(object sender, EventArgs e) //FieldCount must be pow(number, 2);
         {
             Settings.Default["FieldCount"] = (int)Math.Pow(trackBarFieldCount.Value, 2);
-            labelFieldCount.Text = labelFieldCount.Text.Substring(0, 11) + (int)Math.Pow(trackBarFieldCount.Value, 2);
+            groupBoxFieldCount.Text = groupBoxFieldCount.Text.Substring(0, 11) + (int)Math.Pow(trackBarFieldCount.Value, 2);
             FieldControlO_Update();
         }
 
