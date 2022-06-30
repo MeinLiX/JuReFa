@@ -6,6 +6,7 @@ using JuReFa.Properties;
 using JuReFa.Controls;
 using System.Drawing;
 using System.Linq;
+using System.Diagnostics;
 
 namespace JuReFa
 {
@@ -19,8 +20,12 @@ namespace JuReFa
         private void StartButton_Click(object sender, EventArgs e)
         {
             this.Visible = false;
+            var stopwatch = new Stopwatch();
+            stopwatch.Start();
             new TrainingFieldForm().ShowDialog(this);
+            stopwatch.Stop();
             this.Visible = true;
+            this.Text = $"JuReFa | Time: {stopwatch.Elapsed:%m' min.'%s' sec.'}";
         }
 
         private void SetTrackBar(int min, int max, int value, params TrackBar[] trackBars)
