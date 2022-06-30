@@ -23,7 +23,7 @@
         {
             two = 2
         }
-         public enum FontSizeCorrect
+        public enum FontSizeCorrect
         {
             L = 6,      //Little
             L_M = 12,   //Little-medium
@@ -31,13 +31,13 @@
         }
         public enum DefautlSettings
         {
-            MinFontSize=1,
-            MaxFontSize=165,
-            MinFieldCount=4,
+            MinFontSize = 1,
+            MaxFontSize = 165,
+            MinFieldCount = 4,
             MaxFieldCount = 64,
-            MinFieldSize=4,
+            MinFieldSize = 4,
             MaxFieldSize = 210,
-            MinSpaceSize=0,
+            MinSpaceSize = 0,
             MaxSpaceSize = 10,
         }
     }

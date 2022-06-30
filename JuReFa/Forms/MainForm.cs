@@ -1,12 +1,12 @@
-﻿using JuReFa.Forms;
-using System;
-using System.Windows.Forms;
-using JuReFa.Source;
+﻿using JuReFa.Controls;
+using JuReFa.Forms;
 using JuReFa.Properties;
-using JuReFa.Controls;
+using JuReFa.Source;
+using System;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
-using System.Diagnostics;
+using System.Windows.Forms;
 
 namespace JuReFa
 {
@@ -25,7 +25,7 @@ namespace JuReFa
             new TrainingFieldForm().ShowDialog(this);
             stopwatch.Stop();
             this.Visible = true;
-            this.Text = $"JuReFa | Time: {stopwatch.Elapsed:%m' min.'%s' sec.'}";
+            this.Text = $"JuReFa | Time: {stopwatch.Elapsed:%m' min. '%s' sec.'}";
         }
 
         private void SetTrackBar(int min, int max, int value, params TrackBar[] trackBars)

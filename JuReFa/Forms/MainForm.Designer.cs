@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.StartButton = new System.Windows.Forms.Button();
             this.trackBarFontSize = new System.Windows.Forms.TrackBar();
             this.trackBarSpaceSize = new System.Windows.Forms.TrackBar();
@@ -169,8 +170,8 @@
             this.Controls.Add(this.groupBoxFontSize);
             this.Controls.Add(this.StartButton);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MainForm";
-            this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "JuReFa";
             this.Load += new System.EventHandler(this.MainForm_Load);

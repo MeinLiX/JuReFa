@@ -1,7 +1,7 @@
-﻿using System;
+﻿using JuReFa.Source;
+using System;
 using System.Drawing;
 using System.Windows.Forms;
-using JuReFa.Source;
 
 namespace JuReFa.Controls
 {
