@@ -1,10 +1,12 @@
-## Welcome to **JuReFa** Pages
+# Welcome to **JuReFa**
 
 **JuReFa**-([Just Read Fast](https://github.com/MeinLiX/JuReFa)) application for generate random "red and black table".
 
-Gorbov's method "red and black table".
-Purpose: assessment of switching and distribution of attention. `May be
-used to examine children and adults`.
+## DEMO
+![](https://github.com/MeinLiX/JuReFa/blob/master/DEMO.gif)
+#
+Gorbov's method "red and black table". Purpose: assessment of switching and distribution of attention. \
+`May be used to examine children and adults`.
 
 ```markdown
 On the form - N black and N red numbers.
@@ -20,7 +22,7 @@ You have to find alternately 1-red 1-black, 2-red 2-black ...
 
 
 ### Latest versions
-[Children pre-alpha version](https://github.com/MeinLiX/JuReFa/releases/tag/0.3)
+[0.4 version](https://github.com/MeinLiX/JuReFa/releases/tag/0.4)
 
 
 ### Support or Contact
